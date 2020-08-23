@@ -40,7 +40,7 @@ const Home: React.FC = () => {
             },
             {
                 property : "og:description",
-                content : 'Paulistano, Web Developer and Graphic Designer whit solid knowledgment in Javascript and Wordpress , in the short time skater and collector of Vinyl records. I like Music, technology, sports, gastronomy and movies. I do not refuse a good course, be with family and friends.I have great love for advertising, art and Javascript.'
+                content : 'Paulistano, Web Developer and Graphic Designer with solid knowledgment in Javascript and Wordpress , in the short time skater and collector of Vinyl records. I like Music, technology, sports, gastronomy and movies. I do not refuse a good course, be with family and friends.I have great love for advertising, art and Javascript.'
             },
             {
                 property : "og:image:type",
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
                 <div className="profile-content">
 
                 <Title contenTitle="HI! I'm Rogerio Orioli" />
-                <p>Paulistano, Web Developer and Graphic Designer whit solid knowledgment in Javascript and Wordpress , in the short time skater and collector of Vinyl records. I like Music, technology, sports, gastronomy and movies. I do not refuse a good course, be with family and friends.I have great love for advertising, art and Javascript.</p>
+                <p>Paulistano, Web Developer and Graphic Designer with solid knowledgment in Javascript and Wordpress , in the short time skater and collector of Vinyl records. I like Music, technology, sports, gastronomy and movies. I do not refuse a good course, be with family and friends.I have great love for advertising, art and Javascript.</p>
              <SocialIcons 
                 social ={[
                     {
