@@ -16,9 +16,8 @@ const CardPortifolio: React.FC = () => {
     }, [])
 
     const seeMore = () => {
-        setPaginate(paginate + 3)
+        setPaginate(paginate + 5)
     }
-    console.log(repos)
   return(
 
   
@@ -31,8 +30,10 @@ const CardPortifolio: React.FC = () => {
                 .slice(0, paginate).map(repo => {
                     return(
                         <div className="card" key={repo.pushed_at}>
-                            <h2> <FiGithub size={16}/>  {repo.name}</h2>
-                            <p>{!repo.description ? '' : `${repo.description.substring(0, 80)} ...`}</p>
+                           <a href={repo.clone_url} target="_blank"  rel="noopener noreferrer" title="See on Github" >
+                             <h2> <FiGithub size={16}/>  {repo.name}</h2>
+                                 <p>{!repo.description ? '' : `${repo.description.substring(0, 80)} ...`}</p>
+                            </a>
                             {!repo.language ? '' :
                                  <span className="label"> {repo.language} </span>
                             }

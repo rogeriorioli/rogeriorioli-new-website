@@ -13,7 +13,7 @@ export const CardContainer = styled.div`
         border-radius : 1.6rem;
         animation-name : pageFade;
         animation-duration: 1s;
-        min-height : 206px;
+        min-height : 240px;
         display : inline-block;
         vertical-align : top;
         transition: all 0.2s;
@@ -34,6 +34,9 @@ export const CardContainer = styled.div`
             width : 100%;
             margin : 2rem 0;
 
+        }
+        a {
+            text-decoration : none;
         }
         .label {
             background : var(--purple);

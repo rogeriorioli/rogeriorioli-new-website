@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         metaOg={[
             {
                 property : "og:url",
-                content : 'https://rogerioorioli.tech'
+                content : 'https://rogerioorioli.dev.br/'
             },
             {
                 property : "og:type",
@@ -48,7 +48,7 @@ const Home: React.FC = () => {
             },
             {
                 property : "og:image",
-                content : `${rogeriog}`
+                content : `https://rogerioorioli.dev.br/${rogeriog}`
             }
         ]}   
         />
