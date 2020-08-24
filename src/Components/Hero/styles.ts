@@ -59,7 +59,7 @@ export const HeroContainer = styled.div`
                 content : '';
             }
         }
-       @media (max-width : 1366px) {
+       @media (max-width : 1444px) {
         width : 80%;
         padding : 2rem;
         margin-top : 2rem;

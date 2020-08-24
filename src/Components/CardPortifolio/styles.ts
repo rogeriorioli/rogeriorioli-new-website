@@ -72,6 +72,20 @@ export const CardContainer = styled.div`
              color : var(--foreground);
              border-color : var(--purple);
         }
+        @media(max-width : 1280px) {
+            width: 23.3%;
+        }
+        @media(max-width : 1208px) {
+            width: 31.4%;
+        
+        }
+        @media(max-width : 1080px) {
+            width: 47%;
+        
+        }
+        @media(max-width : 700px) {
+            width: 100%;
+        }
     }
     button, .button {
         border : 2px solid var(--purple);
@@ -96,5 +110,6 @@ export const CardContainer = styled.div`
            background: var(--selection);
            color : var(--foreground);
        } 
+     
     }
 `;
