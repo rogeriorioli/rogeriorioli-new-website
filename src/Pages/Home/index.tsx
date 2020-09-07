@@ -57,7 +57,9 @@ const Home: React.FC = () => {
                 <div className="profile-content">
 
                 <Title contenTitle="HI! I'm Rogerio Orioli" />
-                <p>Paulistano, Web Developer and Graphic Designer with solid knowledgment in Javascript and Wordpress , in the short time skater and collector of Vinyl records. I like Music, technology, sports, gastronomy and movies. I do not refuse a good course, be with family and friends.I have great love for advertising, art and Javascript.</p>
+                <p>
+                    Front end Developer with solid knowledge in JavaScript, HTML, CSS , always updated on the best tools libs and frameworks , with passages in consultancies and agencies serving large customers and large projects both as a developer and web designer and also with knowledge in digital marketing, today very focused on full stack development with React and React native and Node Js.
+                </p>
              <SocialIcons 
                 social ={[
                     {
